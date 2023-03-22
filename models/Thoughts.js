@@ -9,7 +9,9 @@ const thoughtSchema = new Schema(
             max_length: 280,
         },
         createdAt: {
-
-        }
-    }
+            type: Date,
+            default: Date.now,
+            get: createdAtVal => date(createdAtVal)
+        },
+    },
 )
