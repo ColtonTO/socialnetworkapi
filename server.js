@@ -19,5 +19,5 @@ mongoose.set('debug', true);
 
 // sync sequelize models to the database, then turn on the server
 app.listen(PORT, () => {
-  console.log(`App listening on port ${PORT}🚀!`);
+  console.log(`SOCIAL NETWORK API listening on port ${PORT}🚀!`);
 });
