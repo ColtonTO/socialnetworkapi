@@ -16,8 +16,7 @@
 
 ## Description
 The socialnetworkAPI app is a backend API that serves as the foundation for a social networking platform. It provides a set of RESTful endpoints that allow users to perform various actions, such as creating an account, creating and deleting posts, and adding and removing friends.
-The API is built using Node.js and the Express.js framework, and uses MongoDB as its database. It provides a secure authentication system, which allows users to create an account with a unique email address and password, and generates an encrypted token that is used to authenticate and authorize the user's subsequent requests.
-The socialnetworkAPI app is designed to be scalable and customizable, and can be easily integrated into a front-end application to provide a complete social networking experience.
+
 
 ## Usage
 - With a program such as Insomnia, you can use this API to play around with and test the API.
